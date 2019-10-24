@@ -2,17 +2,14 @@
   <div id="app">
     <el-container>
       <el-header style="text-align: right; font-size: 12px ; height:60px">
-          <Nav></Nav>
+        <Nav></Nav>
       </el-header>
-
       <!-- <router-link to="/">主页</router-link>
       <router-link to="/main">主页</router-link>
       <router-link to="/admin">管理页</router-link> -->
-
       <el-main>
         <router-view></router-view>
       </el-main>
-
       <el-footer>
         <Footer></Footer>
       </el-footer>
@@ -28,7 +25,7 @@ import Nav from "@/components/Nav.vue";
 
 @Component({
   components: {
-    Footer ,
+    Footer,
     Nav
   }
 })
